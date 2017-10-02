@@ -14,19 +14,18 @@ and open the template in the editor.
         
         class mecanica {
             
-    // El constructor
-        public function __construct($pieza,$precio){
-            $this->pieza =$pieza;
-            $this->precio =$precio;
-          }            
-    //Metodes
-          
-        public function getPrecio(){
-    
-    // Retornem el atribut preu
-            return $this->precio;
-        }
-          
+        // El constructor
+            public function __construct($pieza,$precio){
+                $this->pieza =$pieza;
+                $this->precio =$precio;
+            }            
+        //Metodes
+
+            public function getPrecio(){
+
+        // Retornem el atribut preu
+                return $this->precio;
+            }
         } 
         ?>
     </body>
