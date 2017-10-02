@@ -33,6 +33,11 @@ and open the template in the editor.
                 return $this->pieza;
             }	            
             
+           public function getInfo(){
+
+        // Retornem el atribut pieza
+                return $this->info;
+            }	       
         } 
         ?>
     </body>
