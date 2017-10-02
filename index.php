@@ -26,6 +26,13 @@ and open the template in the editor.
         // Retornem el atribut preu
                 return $this->precio;
             }
+            
+           public function getPieza(){
+
+        // Retornem el atribut pieza
+                return $this->pieza;
+            }	            
+            
         } 
         ?>
     </body>
