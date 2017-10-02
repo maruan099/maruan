@@ -35,9 +35,12 @@ and open the template in the editor.
             
            public function getInfo(){
 
-        // Retornem el atribut pieza
+        // Retornem informació
                 return $this->info;
             }	       
+            
+           public function Fantasma(){
+            }	              
         } 
         ?>
     </body>
