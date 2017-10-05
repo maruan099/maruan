@@ -40,7 +40,7 @@ and open the template in the editor.
             }	       
             
            public function Fantasma(){
-               System.println("Control de versions");
+               System.println("Amb il·lusió");
             }	              
         } 
         ?>
